@@ -8,6 +8,7 @@ use Prism\Prism\Enums\Provider;
 
 enum ModelName: string
 {
+    // OpenAI Models
     case GPT_5_MINI = 'gpt-5-mini';
     case GPT_5_NANO = 'gpt-5-nano';
 
@@ -26,7 +27,7 @@ enum ModelName: string
     {
         return match ($this) {
             self::GPT_5_MINI => 'GPT-5 mini',
-            self::GPT_5_NANO => 'GPT-5 Nano',
+            self::GPT_5_NANO => 'GPT-5 nano',
         };
     }
 
