@@ -51,7 +51,7 @@ const mainMenuItems = [
   {
     label: 'GitHub Repo',
     icon: 'lucide:github',
-    href: 'https://github.com/pushpak1300/ai-chat',
+    href: 'https://github.com/exemuel/codementor',
     target: '_blank',
     external: true,
   },
